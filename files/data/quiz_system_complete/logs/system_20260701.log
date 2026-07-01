@@ -1,0 +1,1151 @@
+[2026-07-01 18:54:42] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 18:54:42] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 18:54:42] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 18:54:42] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 18:54:42] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 18:54:42] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 18:54:42] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 18:54:42] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 18:54:42] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 18:54:42] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 18:54:42] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 18:54:42] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 18:54:42] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 18:54:42] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 18:54:42] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 18:54:42] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 18:54:42] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 18:54:42] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 18:54:42] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 18:54:42] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 18:54:42] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 18:54:43] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 18:54:43] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 18:54:43] [INFO] [EmailAgent] Email sending disabled (SEND_EMAILS != true). Skipping.
+[2026-07-01 18:54:43] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 18:54:43] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 18:54:43] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 18:54:43] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 18:54:43] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 18:54:43] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 18:55:51] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:04:17] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 19:04:18] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 19:04:18] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:04:18] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 19:04:18] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 19:04:18] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 19:04:18] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 19:04:18] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 19:04:18] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 19:04:18] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 19:04:18] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 19:04:18] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 19:04:18] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:04:18] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 19:04:18] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:04:18] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 19:04:18] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 19:04:18] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 19:04:18] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 19:04:18] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 19:04:18] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 19:04:19] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 19:04:19] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 19:04:19] [INFO] [EmailAgent] Email sending disabled (SEND_EMAILS != true). Skipping.
+[2026-07-01 19:04:19] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 19:04:19] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:04:19] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 19:04:19] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 19:04:19] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 19:04:19] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 19:04:29] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:11:49] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 19:11:49] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 19:11:49] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:11:49] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 19:11:49] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 19:11:49] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 19:11:49] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 19:11:49] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 19:11:49] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 19:11:49] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 19:11:49] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 19:11:49] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 19:11:49] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:11:49] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 19:11:49] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:11:49] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 19:11:49] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 19:11:49] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 19:11:49] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 19:11:49] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 19:11:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 19:11:50] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 19:11:50] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 19:11:50] [INFO] [EmailAgent] Email results: {'sent': 0, 'failed': 0, 'skipped': 0}
+[2026-07-01 19:11:50] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 19:11:50] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:11:50] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 19:11:50] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 19:11:50] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 19:11:50] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 19:12:05] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:14:55] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 19:14:55] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 19:14:56] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:14:56] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 19:14:56] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 19:14:56] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 19:14:56] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 19:14:56] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 19:14:56] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 19:14:56] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 19:14:56] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 19:14:56] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 19:14:56] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:14:56] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 19:14:56] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:14:56] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 19:14:56] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 19:14:56] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 19:14:56] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 19:14:56] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 19:14:56] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 19:14:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 19:14:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 19:14:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:14:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:14:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 19:14:57] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 19:14:57] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 19:14:57] [INFO] [EmailAgent] Email results: {'sent': 0, 'failed': 0, 'skipped': 0}
+[2026-07-01 19:14:57] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 19:14:57] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:14:57] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 19:14:57] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 19:14:57] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 19:14:57] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 19:15:12] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:25:29] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 19:25:29] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 19:25:29] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:25:29] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 19:25:29] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 19:25:29] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 19:25:29] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 19:25:29] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 19:25:29] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 19:25:29] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 19:25:29] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 19:25:29] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 19:25:29] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:25:29] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 19:25:29] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:25:29] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 19:25:29] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 19:25:29] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 19:25:29] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 19:25:29] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:25:29] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 19:25:30] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 19:25:30] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 19:25:30] [INFO] [EmailAgent] Email results: {'sent': 0, 'failed': 0, 'skipped': 0}
+[2026-07-01 19:25:30] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 19:25:30] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:25:30] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 19:25:30] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 19:25:30] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 19:25:30] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 19:25:43] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:30:25] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 19:30:25] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 19:30:25] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:30:25] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 19:30:25] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 19:30:25] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 19:30:25] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 19:30:25] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 19:30:25] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 19:30:25] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 19:30:25] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 19:30:25] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 19:30:25] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:30:25] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 19:30:25] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:30:25] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 19:30:25] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 19:30:25] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 19:30:25] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 19:30:25] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 19:30:25] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 19:30:26] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 19:30:26] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 19:30:30] [ERROR] [EmailAgent] Email failed for deepanshu3btech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9bc04ef9cbsm3176517a12.28 - gsmtp')
+[2026-07-01 19:30:33] [ERROR] [EmailAgent] Email failed for mohitkumar746185@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-380c98ac240sm32185a91.0 - gsmtp')
+[2026-07-01 19:30:36] [ERROR] [EmailAgent] Email failed for vibhubtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a0329c08sm4054368b3a.42 - gsmtp')
+[2026-07-01 19:30:39] [ERROR] [EmailAgent] Email failed for shivangipandeyabc@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a0007464sm4002193b3a.23 - gsmtp')
+[2026-07-01 19:30:42] [ERROR] [EmailAgent] Email failed for ayushsingh50593@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca37a70c42sm33238705ad.11 - gsmtp')
+[2026-07-01 19:30:44] [ERROR] [EmailAgent] Email failed for amrendraramtripathibtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a033c884sm4133599b3a.45 - gsmtp')
+[2026-07-01 19:30:47] [ERROR] [EmailAgent] Email failed for chetangoswami2006@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9bbf95a7bfsm3149785a12.15 - gsmtp')
+[2026-07-01 19:30:50] [ERROR] [EmailAgent] Email failed for anshtyagi189@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca3828c8e8sm32769805ad.42 - gsmtp')
+[2026-07-01 19:30:52] [ERROR] [EmailAgent] Email failed for riteshkumar07.com@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca3828c2e8sm32770635ad.43 - gsmtp')
+[2026-07-01 19:30:55] [ERROR] [EmailAgent] Email failed for kanak.gup1234@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9bbc6d978esm3347236a12.3 - gsmtp')
+[2026-07-01 19:30:58] [ERROR] [EmailAgent] Email failed for anusingh99361634@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a03a6fcasm4111848b3a.58 - gsmtp')
+[2026-07-01 19:31:01] [ERROR] [EmailAgent] Email failed for harshitraibtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-8479ffff404sm4145942b3a.22 - gsmtp')
+[2026-07-01 19:31:04] [ERROR] [EmailAgent] Email failed for nileshsarkar430@email.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9e32ef8e49sm353916a12.19 - gsmtp')
+[2026-07-01 19:31:07] [ERROR] [EmailAgent] Email failed for 23lalitthakur@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-38095e830ddsm1950768a91.13 - gsmtp')
+[2026-07-01 19:31:09] [ERROR] [EmailAgent] Email failed for premkumarjhabtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9bbff28998sm3142489a12.22 - gsmtp')
+[2026-07-01 19:31:13] [ERROR] [EmailAgent] Email failed for gunjanbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-38097e81d81sm761475a91.0 - gsmtp')
+[2026-07-01 19:31:16] [ERROR] [EmailAgent] Email failed for vipulpandeybtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a0329c22sm4047878b3a.40 - gsmtp')
+[2026-07-01 19:31:19] [ERROR] [EmailAgent] Email failed for anushkagargbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-8479ff8c6f8sm3951938b3a.1 - gsmtp')
+[2026-07-01 19:31:21] [ERROR] [EmailAgent] Email failed for amans64788@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-38095bc8a2asm930196a91.0 - gsmtp')
+[2026-07-01 19:31:24] [ERROR] [EmailAgent] Email failed for prateekraibtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca37c73c54sm32557635ad.23 - gsmtp')
+[2026-07-01 19:31:27] [ERROR] [EmailAgent] Email failed for sakshichauhanbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a03a6fd5sm4051731b3a.57 - gsmtp')
+[2026-07-01 19:31:30] [ERROR] [EmailAgent] Email failed for rahulyadavbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca382bba24sm32673595ad.71 - gsmtp')
+[2026-07-01 19:31:32] [ERROR] [EmailAgent] Email failed for mohitbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca37c87ba2sm32904635ad.33 - gsmtp')
+[2026-07-01 19:31:35] [ERROR] [EmailAgent] Email failed for akyadav5769@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a03a2a9asm4166009b3a.56 - gsmtp')
+[2026-07-01 19:31:38] [ERROR] [EmailAgent] Email failed for tarunkumar1btech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca382bbaddsm32316065ad.72 - gsmtp')
+[2026-07-01 19:31:41] [ERROR] [EmailAgent] Email failed for nikhilsharmabtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9bbf95a7bfsm3151591a12.15 - gsmtp')
+[2026-07-01 19:31:43] [ERROR] [EmailAgent] Email failed for vineet333roy@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a02cd382sm4128782b3a.35 - gsmtp')
+[2026-07-01 19:31:46] [ERROR] [EmailAgent] Email failed for gsinghakca@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-8479fff4ca8sm4162356b3a.15 - gsmtp')
+[2026-07-01 19:31:49] [ERROR] [EmailAgent] Email failed for amansingh1btech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-380cba5ac49sm18484a91.2 - gsmtp')
+[2026-07-01 19:31:51] [ERROR] [EmailAgent] Email failed for shivamchaudharybtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9bc001d5f4sm3368978a12.23 - gsmtp')
+[2026-07-01 19:31:54] [ERROR] [EmailAgent] Email failed for ayushpalbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca3828c7e1sm32805125ad.53 - gsmtp')
+[2026-07-01 19:31:57] [ERROR] [EmailAgent] Email failed for ansh.gup067@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca37c90548sm33797605ad.36 - gsmtp')
+[2026-07-01 19:32:00] [ERROR] [EmailAgent] Email failed for happybtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9e32ef8e54sm366054a12.20 - gsmtp')
+[2026-07-01 19:32:02] [ERROR] [EmailAgent] Email failed for nileshsarkar430@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca382bb9a8sm32722495ad.69 - gsmtp')
+[2026-07-01 19:32:05] [ERROR] [EmailAgent] Email failed for satyanshrawatbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a03778basm4112095b3a.49 - gsmtp')
+[2026-07-01 19:32:08] [ERROR] [EmailAgent] Email failed for jaisingh1256301@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a02d1597sm4192801b3a.31 - gsmtp')
+[2026-07-01 19:32:11] [ERROR] [EmailAgent] Email failed for vivekyadavbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca37c9138csm33100075ad.34 - gsmtp')
+[2026-07-01 19:32:13] [ERROR] [EmailAgent] Email failed for devashishdobhalbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-380cba5cc36sm18269a91.4 - gsmtp')
+[2026-07-01 19:32:16] [ERROR] [EmailAgent] Email failed for ayushsawbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-847a02cd39asm4090885b3a.34 - gsmtp')
+[2026-07-01 19:32:20] [ERROR] [EmailAgent] Email failed for mushroopbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca37c73b12sm33210355ad.19 - gsmtp')
+[2026-07-01 19:32:23] [ERROR] [EmailAgent] Email failed for sringanisinghbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca3828c2fesm32991895ad.49 - gsmtp')
+[2026-07-01 19:32:26] [ERROR] [EmailAgent] Email failed for ky205426@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca382c5c48sm32412975ad.78 - gsmtp')
+[2026-07-01 19:32:28] [ERROR] [EmailAgent] Email failed for nishaguptabtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c9bbc6d9ed9sm3238111a12.7 - gsmtp')
+[2026-07-01 19:32:31] [ERROR] [EmailAgent] Email failed for vishujeetrathor@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca3828b0e7sm32783695ad.47 - gsmtp')
+[2026-07-01 19:32:33] [ERROR] [EmailAgent] Email failed for gurmeetsinghbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:34] [ERROR] [EmailAgent] Email failed for yashbansal216@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:36] [ERROR] [EmailAgent] Email failed for kumarritik38269@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:38] [ERROR] [EmailAgent] Email failed for piyushsingh1982004@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:39] [ERROR] [EmailAgent] Email failed for vk9491015@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:40] [ERROR] [EmailAgent] Email failed for pushpendrayadav8434@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:43] [ERROR] [EmailAgent] Email failed for vaibhavmishrabtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:44] [ERROR] [EmailAgent] Email failed for sanskarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:46] [ERROR] [EmailAgent] Email failed for manishjitendramishrabtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:48] [ERROR] [EmailAgent] Email failed for amankumarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:49] [ERROR] [EmailAgent] Email failed for yadavshreyanshi772@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:51] [ERROR] [EmailAgent] Email failed for rohitkumarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:52] [ERROR] [EmailAgent] Email failed for sonukumarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:54] [ERROR] [EmailAgent] Email failed for ksah9189@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:56] [ERROR] [EmailAgent] Email failed for mohammadakeelbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:57] [ERROR] [EmailAgent] Email failed for akeelkhan3499@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:32:59] [ERROR] [EmailAgent] Email failed for alok_kumar@liet.in: Connection unexpectedly closed
+[2026-07-01 19:32:59] [INFO] [EmailAgent] Email results: {'sent': 0, 'failed': 61, 'skipped': 0}
+[2026-07-01 19:32:59] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 19:32:59] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:32:59] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 19:32:59] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 19:32:59] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 19:32:59] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 19:37:13] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 19:37:13] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 19:37:13] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:37:13] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 19:37:13] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 19:37:13] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 19:37:13] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 19:37:13] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 19:37:13] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 19:37:13] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 19:37:13] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 19:37:13] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 19:37:13] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:37:13] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 19:37:13] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:37:13] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 19:37:13] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 19:37:13] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 19:37:13] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 19:37:13] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 19:37:13] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 19:37:14] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 19:37:14] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 19:37:18] [ERROR] [EmailAgent] Email failed for deepanshu3btech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee320827fsm21100475eec.25 - gsmtp')
+[2026-07-01 19:37:21] [ERROR] [EmailAgent] Email failed for mohitkumar746185@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2abbba82sm23685565c88.14 - gsmtp')
+[2026-07-01 19:37:24] [ERROR] [EmailAgent] Email failed for vibhubtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2f5c4c3sm21240378eec.2 - gsmtp')
+[2026-07-01 19:37:26] [ERROR] [EmailAgent] Email failed for shivangipandeyabc@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2abbb44csm20742102c88.12 - gsmtp')
+[2026-07-01 19:37:29] [ERROR] [EmailAgent] Email failed for ayushsingh50593@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2cd1be7bsm15205209c88.1 - gsmtp')
+[2026-07-01 19:37:32] [ERROR] [EmailAgent] Email failed for amrendraramtripathibtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2ffdbfesm21159432eec.11 - gsmtp')
+[2026-07-01 19:37:35] [ERROR] [EmailAgent] Email failed for chetangoswami2006@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2aba8008sm17109011c88.11 - gsmtp')
+[2026-07-01 19:37:38] [ERROR] [EmailAgent] Email failed for anshtyagi189@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2f584bdsm22033360eec.4 - gsmtp')
+[2026-07-01 19:37:42] [ERROR] [EmailAgent] Email failed for riteshkumar07.com@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2cd1be7bsm15206587c88.1 - gsmtp')
+[2026-07-01 19:37:45] [ERROR] [EmailAgent] Email failed for kanak.gup1234@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee31da9f3sm17893152eec.22 - gsmtp')
+[2026-07-01 19:37:48] [ERROR] [EmailAgent] Email failed for anusingh99361634@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee3205993sm21553120eec.24 - gsmtp')
+[2026-07-01 19:37:51] [ERROR] [EmailAgent] Email failed for harshitraibtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2aba8008sm17111005c88.11 - gsmtp')
+[2026-07-01 19:37:54] [ERROR] [EmailAgent] Email failed for nileshsarkar430@email.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee3170ee7sm19579664eec.14 - gsmtp')
+[2026-07-01 19:37:57] [ERROR] [EmailAgent] Email failed for 23lalitthakur@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee3205796sm26179463eec.23 - gsmtp')
+[2026-07-01 19:38:00] [ERROR] [EmailAgent] Email failed for premkumarjhabtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2cd1be7bsm15208599c88.1 - gsmtp')
+[2026-07-01 19:38:03] [ERROR] [EmailAgent] Email failed for gunjanbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee31da9f3sm17895143eec.22 - gsmtp')
+[2026-07-01 19:38:06] [ERROR] [EmailAgent] Email failed for vipulpandeybtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ef2688b6esm11722199eec.30 - gsmtp')
+[2026-07-01 19:38:09] [ERROR] [EmailAgent] Email failed for anushkagargbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee31711acsm20141422eec.18 - gsmtp')
+[2026-07-01 19:38:12] [ERROR] [EmailAgent] Email failed for amans64788@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2a9b425asm25799589c88.0 - gsmtp')
+[2026-07-01 19:38:15] [ERROR] [EmailAgent] Email failed for prateekraibtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30efaadc5bfsm7971164eec.28 - gsmtp')
+[2026-07-01 19:38:17] [ERROR] [EmailAgent] Email failed for sakshichauhanbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2fb6514sm18261608eec.7 - gsmtp')
+[2026-07-01 19:38:20] [ERROR] [EmailAgent] Email failed for rahulyadavbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee320827fsm21108488eec.25 - gsmtp')
+[2026-07-01 19:38:23] [ERROR] [EmailAgent] Email failed for mohitbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2a9b425asm25802623c88.0 - gsmtp')
+[2026-07-01 19:38:26] [ERROR] [EmailAgent] Email failed for akyadav5769@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2f5ed29sm21871213eec.1 - gsmtp')
+[2026-07-01 19:38:29] [ERROR] [EmailAgent] Email failed for tarunkumar1btech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee3205993sm21559638eec.24 - gsmtp')
+[2026-07-01 19:38:32] [ERROR] [EmailAgent] Email failed for nikhilsharmabtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2ab0fc3fsm22610919c88.2 - gsmtp')
+[2026-07-01 19:38:35] [ERROR] [EmailAgent] Email failed for vineet333roy@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee324b197sm20115303eec.26 - gsmtp')
+[2026-07-01 19:38:38] [ERROR] [EmailAgent] Email failed for gsinghakca@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2abbba8dsm24267855c88.13 - gsmtp')
+[2026-07-01 19:38:41] [ERROR] [EmailAgent] Email failed for amansingh1btech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2abcd5edsm27656714c88.15 - gsmtp')
+[2026-07-01 19:38:43] [ERROR] [EmailAgent] Email failed for shivamchaudharybtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2fc21casm20010917eec.10 - gsmtp')
+[2026-07-01 19:38:46] [ERROR] [EmailAgent] Email failed for ayushpalbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ef2688b6esm11726747eec.30 - gsmtp')
+[2026-07-01 19:38:49] [ERROR] [EmailAgent] Email failed for ansh.gup067@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2cd1be7bsm15213904c88.1 - gsmtp')
+[2026-07-01 19:38:52] [ERROR] [EmailAgent] Email failed for happybtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2ffdbfesm21169189eec.11 - gsmtp')
+[2026-07-01 19:38:55] [ERROR] [EmailAgent] Email failed for nileshsarkar430@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2abbba8dsm24270977c88.13 - gsmtp')
+[2026-07-01 19:38:58] [ERROR] [EmailAgent] Email failed for satyanshrawatbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee3205993sm21564318eec.24 - gsmtp')
+[2026-07-01 19:39:01] [ERROR] [EmailAgent] Email failed for jaisingh1256301@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b309476e9sm12078003c88.8 - gsmtp')
+[2026-07-01 19:39:04] [ERROR] [EmailAgent] Email failed for vivekyadavbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee300e4a7sm20397406eec.13 - gsmtp')
+[2026-07-01 19:39:07] [ERROR] [EmailAgent] Email failed for devashishdobhalbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee317095dsm31072268eec.15 - gsmtp')
+[2026-07-01 19:39:10] [ERROR] [EmailAgent] Email failed for ayushsawbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee2f5ed29sm21876840eec.1 - gsmtp')
+[2026-07-01 19:39:12] [ERROR] [EmailAgent] Email failed for mushroopbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b309476e9sm12079157c88.8 - gsmtp')
+[2026-07-01 19:39:15] [ERROR] [EmailAgent] Email failed for sringanisinghbtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee3205796sm26194690eec.23 - gsmtp')
+[2026-07-01 19:39:18] [ERROR] [EmailAgent] Email failed for ky205426@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b2abbb44csm20756465c88.12 - gsmtp')
+[2026-07-01 19:39:20] [ERROR] [EmailAgent] Email failed for nishaguptabtech23-27@liet.in: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ee31711acsm20149654eec.18 - gsmtp')
+[2026-07-01 19:39:22] [ERROR] [EmailAgent] Email failed for vishujeetrathor@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:23] [ERROR] [EmailAgent] Email failed for gurmeetsinghbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:25] [ERROR] [EmailAgent] Email failed for yashbansal216@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:26] [ERROR] [EmailAgent] Email failed for kumarritik38269@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:28] [ERROR] [EmailAgent] Email failed for piyushsingh1982004@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:30] [ERROR] [EmailAgent] Email failed for vk9491015@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:32] [ERROR] [EmailAgent] Email failed for pushpendrayadav8434@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:33] [ERROR] [EmailAgent] Email failed for vaibhavmishrabtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:35] [ERROR] [EmailAgent] Email failed for sanskarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:36] [ERROR] [EmailAgent] Email failed for manishjitendramishrabtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:38] [ERROR] [EmailAgent] Email failed for amankumarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:40] [ERROR] [EmailAgent] Email failed for yadavshreyanshi772@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:42] [ERROR] [EmailAgent] Email failed for rohitkumarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:43] [ERROR] [EmailAgent] Email failed for sonukumarbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:45] [ERROR] [EmailAgent] Email failed for ksah9189@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:46] [ERROR] [EmailAgent] Email failed for mohammadakeelbtech23-27@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:48] [ERROR] [EmailAgent] Email failed for akeelkhan3499@gmail.com: Connection unexpectedly closed
+[2026-07-01 19:39:49] [ERROR] [EmailAgent] Email failed for alok_kumar@liet.in: Connection unexpectedly closed
+[2026-07-01 19:39:49] [INFO] [EmailAgent] Email results: {'sent': 0, 'failed': 61, 'skipped': 0}
+[2026-07-01 19:39:49] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 19:39:49] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:39:50] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 19:39:50] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 19:39:50] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 19:39:50] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 19:44:57] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 19:44:57] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 19:44:57] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:44:57] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 19:44:57] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 19:44:57] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 19:44:57] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 19:44:57] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 19:44:57] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 19:44:57] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 19:44:57] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 19:44:57] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 19:44:57] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:44:57] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 19:44:57] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:44:57] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 19:44:57] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 19:44:57] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 19:44:57] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 19:44:57] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 19:44:57] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 19:44:58] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 19:44:58] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 19:45:04] [INFO] [EmailAgent] Email sent to deepanshu3btech23-27@liet.in
+[2026-07-01 19:45:08] [INFO] [EmailAgent] Email sent to mohitkumar746185@gmail.com
+[2026-07-01 19:45:13] [INFO] [EmailAgent] Email sent to vibhubtech23-27@liet.in
+[2026-07-01 19:45:18] [INFO] [EmailAgent] Email sent to shivangipandeyabc@gmail.com
+[2026-07-01 19:45:23] [INFO] [EmailAgent] Email sent to ayushsingh50593@gmail.com
+[2026-07-01 19:45:28] [INFO] [EmailAgent] Email sent to amrendraramtripathibtech23-27@liet.in
+[2026-07-01 19:45:32] [INFO] [EmailAgent] Email sent to chetangoswami2006@gmail.com
+[2026-07-01 19:45:37] [INFO] [EmailAgent] Email sent to anshtyagi189@gmail.com
+[2026-07-01 19:45:41] [INFO] [EmailAgent] Email sent to riteshkumar07.com@gmail.com
+[2026-07-01 19:45:45] [INFO] [EmailAgent] Email sent to kanak.gup1234@gmail.com
+[2026-07-01 19:45:50] [INFO] [EmailAgent] Email sent to anusingh99361634@gmail.com
+[2026-07-01 19:45:54] [INFO] [EmailAgent] Email sent to harshitraibtech23-27@liet.in
+[2026-07-01 19:45:58] [INFO] [EmailAgent] Email sent to nileshsarkar430@email.com
+[2026-07-01 19:46:02] [INFO] [EmailAgent] Email sent to 23lalitthakur@gmail.com
+[2026-07-01 19:46:07] [INFO] [EmailAgent] Email sent to premkumarjhabtech23-27@liet.in
+[2026-07-01 19:46:11] [INFO] [EmailAgent] Email sent to gunjanbtech23-27@liet.in
+[2026-07-01 19:46:15] [INFO] [EmailAgent] Email sent to vipulpandeybtech23-27@liet.in
+[2026-07-01 19:46:20] [INFO] [EmailAgent] Email sent to anushkagargbtech23-27@liet.in
+[2026-07-01 19:46:24] [INFO] [EmailAgent] Email sent to amans64788@gmail.com
+[2026-07-01 19:46:29] [INFO] [EmailAgent] Email sent to prateekraibtech23-27@liet.in
+[2026-07-01 19:46:34] [INFO] [EmailAgent] Email sent to sakshichauhanbtech23-27@liet.in
+[2026-07-01 19:46:38] [INFO] [EmailAgent] Email sent to rahulyadavbtech23-27@liet.in
+[2026-07-01 19:46:42] [INFO] [EmailAgent] Email sent to mohitbtech23-27@liet.in
+[2026-07-01 19:46:47] [INFO] [EmailAgent] Email sent to akyadav5769@gmail.com
+[2026-07-01 19:46:51] [INFO] [EmailAgent] Email sent to tarunkumar1btech23-27@liet.in
+[2026-07-01 19:46:56] [INFO] [EmailAgent] Email sent to nikhilsharmabtech23-27@liet.in
+[2026-07-01 19:47:01] [INFO] [EmailAgent] Email sent to vineet333roy@gmail.com
+[2026-07-01 19:47:05] [INFO] [EmailAgent] Email sent to gsinghakca@gmail.com
+[2026-07-01 19:47:09] [INFO] [EmailAgent] Email sent to amansingh1btech23-27@liet.in
+[2026-07-01 19:47:14] [INFO] [EmailAgent] Email sent to shivamchaudharybtech23-27@liet.in
+[2026-07-01 19:47:19] [INFO] [EmailAgent] Email sent to ayushpalbtech23-27@liet.in
+[2026-07-01 19:47:23] [INFO] [EmailAgent] Email sent to ansh.gup067@gmail.com
+[2026-07-01 19:47:27] [INFO] [EmailAgent] Email sent to happybtech23-27@liet.in
+[2026-07-01 19:47:31] [INFO] [EmailAgent] Email sent to nileshsarkar430@gmail.com
+[2026-07-01 19:47:36] [INFO] [EmailAgent] Email sent to satyanshrawatbtech23-27@liet.in
+[2026-07-01 19:47:40] [INFO] [EmailAgent] Email sent to jaisingh1256301@gmail.com
+[2026-07-01 19:47:45] [INFO] [EmailAgent] Email sent to vivekyadavbtech23-27@liet.in
+[2026-07-01 19:47:49] [INFO] [EmailAgent] Email sent to devashishdobhalbtech23-27@liet.in
+[2026-07-01 19:47:54] [INFO] [EmailAgent] Email sent to ayushsawbtech23-27@liet.in
+[2026-07-01 19:47:59] [INFO] [EmailAgent] Email sent to mushroopbtech23-27@liet.in
+[2026-07-01 19:48:03] [INFO] [EmailAgent] Email sent to sringanisinghbtech23-27@liet.in
+[2026-07-01 19:48:08] [INFO] [EmailAgent] Email sent to ky205426@gmail.com
+[2026-07-01 19:48:12] [INFO] [EmailAgent] Email sent to nishaguptabtech23-27@liet.in
+[2026-07-01 19:48:16] [INFO] [EmailAgent] Email sent to vishujeetrathor@gmail.com
+[2026-07-01 19:48:20] [INFO] [EmailAgent] Email sent to gurmeetsinghbtech23-27@liet.in
+[2026-07-01 19:48:25] [INFO] [EmailAgent] Email sent to yashbansal216@gmail.com
+[2026-07-01 19:48:29] [INFO] [EmailAgent] Email sent to kumarritik38269@gmail.com
+[2026-07-01 19:48:33] [INFO] [EmailAgent] Email sent to piyushsingh1982004@gmail.com
+[2026-07-01 19:48:37] [INFO] [EmailAgent] Email sent to vk9491015@gmail.com
+[2026-07-01 19:48:42] [INFO] [EmailAgent] Email sent to pushpendrayadav8434@gmail.com
+[2026-07-01 19:48:47] [INFO] [EmailAgent] Email sent to vaibhavmishrabtech23-27@liet.in
+[2026-07-01 19:48:51] [INFO] [EmailAgent] Email sent to sanskarbtech23-27@liet.in
+[2026-07-01 19:48:55] [INFO] [EmailAgent] Email sent to manishjitendramishrabtech23-27@liet.in
+[2026-07-01 19:48:59] [INFO] [EmailAgent] Email sent to amankumarbtech23-27@liet.in
+[2026-07-01 19:49:03] [INFO] [EmailAgent] Email sent to yadavshreyanshi772@gmail.com
+[2026-07-01 19:49:07] [INFO] [EmailAgent] Email sent to rohitkumarbtech23-27@liet.in
+[2026-07-01 19:49:13] [INFO] [EmailAgent] Email sent to sonukumarbtech23-27@liet.in
+[2026-07-01 19:49:17] [INFO] [EmailAgent] Email sent to ksah9189@gmail.com
+[2026-07-01 19:49:22] [INFO] [EmailAgent] Email sent to mohammadakeelbtech23-27@liet.in
+[2026-07-01 19:49:27] [INFO] [EmailAgent] Email sent to akeelkhan3499@gmail.com
+[2026-07-01 19:49:32] [INFO] [EmailAgent] Email sent to alok_kumar@liet.in
+[2026-07-01 19:49:32] [INFO] [EmailAgent] Email results: {'sent': 61, 'failed': 0, 'skipped': 0}
+[2026-07-01 19:49:32] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 19:49:32] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 19:49:32] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 19:49:32] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 19:49:32] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 19:49:32] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 19:49:47] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:13:58] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 20:13:58] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 20:13:58] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:13:58] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 20:13:58] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 20:13:58] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 20:13:58] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 20:13:58] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 20:13:58] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 20:13:59] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 20:13:59] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 20:13:59] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 20:13:59] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:13:59] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 20:13:59] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:13:59] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 20:13:59] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 20:13:59] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 20:13:59] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 20:13:59] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 20:13:59] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 20:14:00] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 20:14:00] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 20:14:04] [INFO] [EmailAgent] Email sent to deepanshu3btech23-27@liet.in
+[2026-07-01 20:14:09] [INFO] [EmailAgent] Email sent to mohitkumar746185@gmail.com
+[2026-07-01 20:14:13] [INFO] [EmailAgent] Email sent to vibhubtech23-27@liet.in
+[2026-07-01 20:14:17] [INFO] [EmailAgent] Email sent to shivangipandeyabc@gmail.com
+[2026-07-01 20:14:20] [INFO] [EmailAgent] Email sent to ayushsingh50593@gmail.com
+[2026-07-01 20:14:24] [INFO] [EmailAgent] Email sent to amrendraramtripathibtech23-27@liet.in
+[2026-07-01 20:14:29] [INFO] [EmailAgent] Email sent to chetangoswami2006@gmail.com
+[2026-07-01 20:14:32] [INFO] [EmailAgent] Email sent to anshtyagi189@gmail.com
+[2026-07-01 20:14:36] [INFO] [EmailAgent] Email sent to riteshkumar07.com@gmail.com
+[2026-07-01 20:14:41] [INFO] [EmailAgent] Email sent to kanak.gup1234@gmail.com
+[2026-07-01 20:14:45] [INFO] [EmailAgent] Email sent to anusingh99361634@gmail.com
+[2026-07-01 20:14:49] [INFO] [EmailAgent] Email sent to harshitraibtech23-27@liet.in
+[2026-07-01 20:14:53] [INFO] [EmailAgent] Email sent to nileshsarkar430@email.com
+[2026-07-01 20:14:56] [INFO] [EmailAgent] Email sent to 23lalitthakur@gmail.com
+[2026-07-01 20:15:00] [INFO] [EmailAgent] Email sent to premkumarjhabtech23-27@liet.in
+[2026-07-01 20:15:04] [INFO] [EmailAgent] Email sent to gunjanbtech23-27@liet.in
+[2026-07-01 20:15:08] [INFO] [EmailAgent] Email sent to vipulpandeybtech23-27@liet.in
+[2026-07-01 20:15:11] [INFO] [EmailAgent] Email sent to anushkagargbtech23-27@liet.in
+[2026-07-01 20:15:15] [INFO] [EmailAgent] Email sent to amans64788@gmail.com
+[2026-07-01 20:15:20] [INFO] [EmailAgent] Email sent to prateekraibtech23-27@liet.in
+[2026-07-01 20:15:24] [INFO] [EmailAgent] Email sent to sakshichauhanbtech23-27@liet.in
+[2026-07-01 20:15:29] [INFO] [EmailAgent] Email sent to rahulyadavbtech23-27@liet.in
+[2026-07-01 20:15:33] [INFO] [EmailAgent] Email sent to mohitbtech23-27@liet.in
+[2026-07-01 20:15:37] [INFO] [EmailAgent] Email sent to akyadav5769@gmail.com
+[2026-07-01 20:15:41] [INFO] [EmailAgent] Email sent to tarunkumar1btech23-27@liet.in
+[2026-07-01 20:15:46] [INFO] [EmailAgent] Email sent to nikhilsharmabtech23-27@liet.in
+[2026-07-01 20:15:50] [INFO] [EmailAgent] Email sent to vineet333roy@gmail.com
+[2026-07-01 20:15:54] [INFO] [EmailAgent] Email sent to gsinghakca@gmail.com
+[2026-07-01 20:15:58] [INFO] [EmailAgent] Email sent to amansingh1btech23-27@liet.in
+[2026-07-01 20:16:02] [INFO] [EmailAgent] Email sent to shivamchaudharybtech23-27@liet.in
+[2026-07-01 20:16:06] [INFO] [EmailAgent] Email sent to ayushpalbtech23-27@liet.in
+[2026-07-01 20:16:11] [INFO] [EmailAgent] Email sent to ansh.gup067@gmail.com
+[2026-07-01 20:16:15] [INFO] [EmailAgent] Email sent to happybtech23-27@liet.in
+[2026-07-01 20:16:19] [INFO] [EmailAgent] Email sent to nileshsarkar430@gmail.com
+[2026-07-01 20:16:24] [INFO] [EmailAgent] Email sent to satyanshrawatbtech23-27@liet.in
+[2026-07-01 20:16:27] [INFO] [EmailAgent] Email sent to jaisingh1256301@gmail.com
+[2026-07-01 20:16:32] [INFO] [EmailAgent] Email sent to vivekyadavbtech23-27@liet.in
+[2026-07-01 20:16:36] [INFO] [EmailAgent] Email sent to devashishdobhalbtech23-27@liet.in
+[2026-07-01 20:16:41] [INFO] [EmailAgent] Email sent to ayushsawbtech23-27@liet.in
+[2026-07-01 20:16:45] [INFO] [EmailAgent] Email sent to mushroopbtech23-27@liet.in
+[2026-07-01 20:16:49] [INFO] [EmailAgent] Email sent to sringanisinghbtech23-27@liet.in
+[2026-07-01 20:16:54] [INFO] [EmailAgent] Email sent to ky205426@gmail.com
+[2026-07-01 20:16:58] [INFO] [EmailAgent] Email sent to nishaguptabtech23-27@liet.in
+[2026-07-01 20:17:02] [INFO] [EmailAgent] Email sent to vishujeetrathor@gmail.com
+[2026-07-01 20:17:06] [INFO] [EmailAgent] Email sent to gurmeetsinghbtech23-27@liet.in
+[2026-07-01 20:17:11] [INFO] [EmailAgent] Email sent to yashbansal216@gmail.com
+[2026-07-01 20:17:15] [INFO] [EmailAgent] Email sent to kumarritik38269@gmail.com
+[2026-07-01 20:17:19] [INFO] [EmailAgent] Email sent to piyushsingh1982004@gmail.com
+[2026-07-01 20:17:23] [INFO] [EmailAgent] Email sent to vk9491015@gmail.com
+[2026-07-01 20:17:26] [INFO] [EmailAgent] Email sent to pushpendrayadav8434@gmail.com
+[2026-07-01 20:17:31] [INFO] [EmailAgent] Email sent to vaibhavmishrabtech23-27@liet.in
+[2026-07-01 20:17:36] [INFO] [EmailAgent] Email sent to sanskarbtech23-27@liet.in
+[2026-07-01 20:17:40] [INFO] [EmailAgent] Email sent to manishjitendramishrabtech23-27@liet.in
+[2026-07-01 20:17:44] [INFO] [EmailAgent] Email sent to amankumarbtech23-27@liet.in
+[2026-07-01 20:17:48] [INFO] [EmailAgent] Email sent to yadavshreyanshi772@gmail.com
+[2026-07-01 20:17:52] [INFO] [EmailAgent] Email sent to rohitkumarbtech23-27@liet.in
+[2026-07-01 20:17:57] [INFO] [EmailAgent] Email sent to sonukumarbtech23-27@liet.in
+[2026-07-01 20:18:02] [INFO] [EmailAgent] Email sent to ksah9189@gmail.com
+[2026-07-01 20:18:06] [INFO] [EmailAgent] Email sent to mohammadakeelbtech23-27@liet.in
+[2026-07-01 20:18:10] [INFO] [EmailAgent] Email sent to akeelkhan3499@gmail.com
+[2026-07-01 20:18:15] [INFO] [EmailAgent] Email sent to alok_kumar@liet.in
+[2026-07-01 20:18:15] [INFO] [EmailAgent] Email results: {'sent': 61, 'failed': 0, 'skipped': 0}
+[2026-07-01 20:18:15] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 20:18:15] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:18:15] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 20:18:15] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 20:18:15] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 20:18:15] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 20:47:48] [INFO] [Main] Running initial pipeline pass...
+[2026-07-01 20:47:48] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-07-01 20:47:48] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:47:48] [DEBUG] [FileMonitorAgent] Already processed: day1_module1_quiz1.csv
+[2026-07-01 20:47:48] [DEBUG] [FileMonitorAgent] Already processed: day2_module1_quiz2.csv
+[2026-07-01 20:47:48] [DEBUG] [FileMonitorAgent] Already processed: day3_module1_quiz3.csv
+[2026-07-01 20:47:48] [DEBUG] [FileMonitorAgent] Already processed: day4_module1_quiz4.csv
+[2026-07-01 20:47:48] [DEBUG] [FileMonitorAgent] Already processed: day5_module5_quiz5.csv
+[2026-07-01 20:47:48] [DEBUG] [FileMonitorAgent] Already processed: day6_module2_quiz6.csv
+[2026-07-01 20:47:48] [DEBUG] [FileMonitorAgent] Already processed: day7_module3_quiz7.csv
+[2026-07-01 20:47:48] [INFO] [Pipeline] Found 0 new file(s) to process.
+[2026-07-01 20:47:48] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-07-01 20:47:48] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:47:48] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-07-01 20:47:48] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:47:48] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-07-01 20:47:48] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-07-01 20:47:48] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-07-01 20:47:48] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-07-01 20:47:48] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-07-01 20:47:48] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-07-01 20:47:49] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-07-01 20:47:49] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-07-01 20:47:49] [INFO] [EmailAgent] Email sending disabled (SEND_EMAILS != true). Skipping.
+[2026-07-01 20:47:49] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-07-01 20:47:49] [INFO] [DatabaseManager] Database schema initialized.
+[2026-07-01 20:47:49] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-07-01 20:47:49] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-07-01 20:47:49] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-07-01 20:47:49] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-07-01 20:48:12] [INFO] [DatabaseManager] Database schema initialized.

@@ -1,0 +1,62 @@
+rank,name,email,total_marks,total_max,overall_percentage,overall_percentile,grade,quizzes_attempted
+1,Deepanshu,deepanshu3btech23-27@liet.in,111.0,115.0,96.52,100.0,A+,4
+2,Mohit Kumar,mohitkumar746185@gmail.com,24.0,25.0,96.0,97.54,A+,2
+2,Vibhu,vibhubtech23-27@liet.in,24.0,25.0,96.0,97.54,A+,1
+4,Shivangi Pandey,shivangipandeyabc@gmail.com,130.0,136.0,95.59,95.08,A+,6
+5,Ayush Singh,ayushsingh50593@gmail.com,57.0,61.0,93.44,93.44,A+,4
+6,Amrendra Ram Tripathi,amrendraramtripathibtech23-27@liet.in,28.0,30.0,93.33,91.8,A+,2
+7,Chetan Goswami,chetangoswami2006@gmail.com,122.0,131.0,93.13,90.16,A+,5
+8,Ansh Tyagi,anshtyagi189@gmail.com,130.0,141.0,92.2,88.52,A+,6
+9,Ritesh Kumar Singh,riteshkumar07.com@gmail.com,70.0,76.0,92.11,86.89,A+,2
+10,Kanak Gupta,kanak.gup1234@gmail.com,147.0,161.0,91.3,85.25,A+,7
+11,Anurag Kumar Singh,anusingh99361634@gmail.com,91.0,100.0,91.0,83.61,A+,3
+12,Harshit Rai,harshitraibtech23-27@liet.in,119.0,131.0,90.84,81.97,A+,5
+13,Nilesh Sarkar,nileshsarkar430@email.com,18.0,20.0,90.0,79.51,A+,1
+13,Lalit,23lalitthakur@gmail.com,18.0,20.0,90.0,79.51,A+,1
+15,Prem Kumar Jha,premkumarjhabtech23-27@liet.in,104.0,116.0,89.66,77.05,A,4
+16,Gunjan,gunjanbtech23-27@liet.in,117.0,131.0,89.31,75.41,A,5
+17,Vipul Pandey,vipulpandeybtech23-27@liet.in,129.0,146.0,88.36,73.77,A,6
+18,Anushka Garg,anushkagargbtech23-27@liet.in,67.0,76.0,88.16,72.13,A,4
+19,Aman Singh,amans64788@gmail.com,35.0,40.0,87.5,70.49,A,2
+20,Prateek Rai,prateekraibtech23-27@liet.in,118.0,136.0,86.76,68.85,A,5
+21,Sakshi Chauhan,sakshichauhanbtech23-27@liet.in,135.0,161.0,83.85,67.21,A,7
+22,Rahul Yadav,rahulyadavbtech23-27@liet.in,88.0,106.0,83.02,65.57,A,4
+23,Mohit,mohitbtech23-27@liet.in,125.0,151.0,82.78,63.93,A,6
+24,Akash Kumar Yadav,akyadav5769@gmail.com,37.0,45.0,82.22,62.3,A,2
+25,Tarun Kumar,tarunkumar1btech23-27@liet.in,105.0,131.0,80.15,60.66,A,5
+26,Nikhil Sharma,nikhilsharmabtech23-27@liet.in,12.0,15.0,80.0,57.38,A,1
+26,Vineet Kumar Roy,vineet333roy@gmail.com,24.0,30.0,80.0,57.38,A,2
+26,Garima Singh,gsinghakca@gmail.com,76.0,95.0,80.0,57.38,A,3
+29,Aman Singh,amansingh1btech23-27@liet.in,112.0,141.0,79.43,54.1,B+,6
+30,Shivam Chaudhary,shivamchaudharybtech23-27@liet.in,100.0,126.0,79.37,52.46,B+,5
+31,Ayush Pal,ayushpalbtech23-27@liet.in,91.0,116.0,78.45,50.82,B+,4
+32,Anshu Gupta,ansh.gup067@gmail.com,79.0,101.0,78.22,49.18,B+,3
+33,Happy,happybtech23-27@liet.in,114.0,146.0,78.08,47.54,B+,6
+34,Nilesh Sarkar,nileshsarkar430@gmail.com,110.0,141.0,78.01,45.9,B+,6
+35,Satyansh Rawat,satyanshrawatbtech23-27@liet.in,102.0,131.0,77.86,44.26,B+,5
+36,Jai Vardhan Singh,jaisingh1256301@gmail.com,59.0,76.0,77.63,42.62,B+,2
+37,Vivek Yadav,vivekyadavbtech23-27@liet.in,124.0,161.0,77.02,40.98,B+,7
+38,Devashish Dobhal,devashishdobhalbtech23-27@liet.in,116.0,151.0,76.82,39.34,B+,6
+39,Ayush Saw,ayushsawbtech23-27@liet.in,66.0,86.0,76.74,37.7,B+,5
+40,Mushroop,mushroopbtech23-27@liet.in,100.0,131.0,76.34,36.07,B+,5
+41,Sringani Singh,sringanisinghbtech23-27@liet.in,87.0,115.0,75.65,34.43,B+,4
+42,Kapil Yadav,ky205426@gmail.com,97.0,131.0,74.05,32.79,B+,5
+43,Nisha Gupta,nishaguptabtech23-27@liet.in,22.0,30.0,73.33,31.15,B+,2
+44,Vishujeet Rathore,vishujeetrathor@gmail.com,107.0,146.0,73.29,29.51,B+,6
+45,Gurmeet Singh,gurmeetsinghbtech23-27@liet.in,71.0,101.0,70.3,27.87,B+,3
+46,Yash Bansal,yashbansal216@gmail.com,59.0,85.0,69.41,26.23,B,2
+47,Ritik,kumarritik38269@gmail.com,111.0,161.0,68.94,24.59,B,7
+48,Piyush Singh,piyushsingh1982004@gmail.com,100.0,146.0,68.49,22.95,B,6
+49,Vishal Kumar,vk9491015@gmail.com,92.0,136.0,67.65,21.31,B,5
+50,Pushpendra Yadav,pushpendrayadav8434@gmail.com,84.0,126.0,66.67,19.67,B,5
+51,Vaibhav Mishra,vaibhavmishrabtech23-27@liet.in,33.0,50.0,66.0,18.03,B,3
+52,Sanskar,sanskarbtech23-27@liet.in,47.0,75.0,62.67,16.39,B,2
+53,Manish Mishra,manishjitendramishrabtech23-27@liet.in,9.0,15.0,60.0,13.93,B,1
+53,Aman Kumar,amankumarbtech23-27@liet.in,21.0,35.0,60.0,13.93,B,2
+55,Shreyanshi Yadav,yadavshreyanshi772@gmail.com,70.0,120.0,58.33,11.48,C,4
+56,Rohit Kumar,rohitkumarbtech23-27@liet.in,74.0,131.0,56.49,9.84,C,5
+57,Sonu Kumar,sonukumarbtech23-27@liet.in,44.0,91.0,48.35,8.2,D,5
+58,Krishna Kumar Sah,ksah9189@gmail.com,26.0,56.0,46.43,6.56,D,3
+59,Akeel Khan,mohammadakeelbtech23-27@liet.in,7.0,20.0,35.0,4.92,F,1
+60,Akeel Khan,akeelkhan3499@gmail.com,4.0,16.0,25.0,3.28,F,1
+61,Alok,alok_kumar@liet.in,1.0,15.0,6.67,1.64,F,1

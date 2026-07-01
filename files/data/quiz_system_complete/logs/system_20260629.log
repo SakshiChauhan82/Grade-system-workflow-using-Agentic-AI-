@@ -1,0 +1,232 @@
+[2026-06-29 01:03:38] [INFO] [Main] Running initial pipeline pass...
+[2026-06-29 01:03:38] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-06-29 01:03:38] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:03:38] [INFO] [FileMonitorAgent] New file detected: Quiz1_15_6_26.csv (Quiz 1)
+[2026-06-29 01:03:38] [INFO] [FileMonitorAgent] New file detected: Quiz_2_16_6_26.csv (Quiz 2)
+[2026-06-29 01:03:38] [INFO] [FileMonitorAgent] New file detected: Quiz_3_17_6_26.csv (Quiz 3)
+[2026-06-29 01:03:38] [INFO] [Pipeline] Found 3 new file(s) to process.
+[2026-06-29 01:03:38] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-06-29 01:03:38] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:03:39] [INFO] [ScheduleLoader] Schedule loaded: 26 quiz entries.
+[2026-06-29 01:03:39] [INFO] [DataCleaningAgent] Cleaning file: Quiz1_15_6_26.csv
+[2026-06-29 01:03:39] [DEBUG] [DataCleaningAgent] Raw shape: (25, 55), columns: ['Timestamp', 'Username', 'Total score', 'Name', 'Name [Score]', 'Name [Feedback]', 'Email', 'Email [Score]']
+[2026-06-29 01:03:39] [INFO] [DataCleaningAgent] Cleaned: 25 unique students for Quiz 1.
+[2026-06-29 01:03:39] [INFO] [DatabaseManager] Upserted 25 quiz score rows.
+[2026-06-29 01:03:39] [INFO] [Pipeline] Stored 25 rows for Quiz 1.
+[2026-06-29 01:03:39] [INFO] [DataCleaningAgent] Cleaning file: Quiz_2_16_6_26.csv
+[2026-06-29 01:03:39] [DEBUG] [DataCleaningAgent] Raw shape: (36, 53), columns: ['Timestamp', 'Total score', 'Name', 'Name [Score]', 'Name [Feedback]', 'Email', 'Email [Score]', 'Email [Feedback]']
+[2026-06-29 01:03:39] [INFO] [DataCleaningAgent] Cleaned: 36 unique students for Quiz 2.
+[2026-06-29 01:03:39] [INFO] [DatabaseManager] Upserted 36 quiz score rows.
+[2026-06-29 01:03:39] [INFO] [Pipeline] Stored 36 rows for Quiz 2.
+[2026-06-29 01:03:39] [INFO] [DataCleaningAgent] Cleaning file: Quiz_3_17_6_26.csv
+[2026-06-29 01:03:39] [DEBUG] [DataCleaningAgent] Raw shape: (42, 83), columns: ['Timestamp', 'Total score', 'Name', 'Name [Score]', 'Name [Feedback]', 'Email', 'Email [Score]', 'Email [Feedback]']
+[2026-06-29 01:03:39] [WARNING] [DataCleaningAgent] Dropped 2 rows with missing email.
+[2026-06-29 01:03:39] [INFO] [DataCleaningAgent] Cleaned: 40 unique students for Quiz 3.
+[2026-06-29 01:03:39] [INFO] [DatabaseManager] Upserted 40 quiz score rows.
+[2026-06-29 01:03:39] [INFO] [Pipeline] Stored 40 rows for Quiz 3.
+[2026-06-29 01:03:39] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-06-29 01:03:39] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:03:39] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-06-29 01:03:39] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-06-29 01:03:39] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-06-29 01:03:39] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 16, 'A+': 14, 'A': 12, 'B': 8, 'D': 5, 'F': 5, 'C': 1}
+[2026-06-29 01:03:39] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohitkumar746185_Gmail_Com.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivekyadavbtech23_27_Liet_In.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayushsinghbtech23_27_Liet_In.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-06-29 01:03:39] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yaddav.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushkagarg2004_Gmail_Com.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashishdobhalbtech23_27_Liet_In.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhilsharmabtech23_27_Liet_In.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manishjitendramishrabtech23_27_Liet_In.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jagat_Kumar_Liet_In.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok_Kumar_Liet_In.pdf
+[2026-06-29 01:03:40] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-06-29 01:03:40] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-06-29 01:03:40] [INFO] [EmailAgent] Email sending disabled (SEND_EMAILS != true). Skipping.
+[2026-06-29 01:03:40] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-06-29 01:03:40] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:03:40] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-06-29 01:03:40] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-06-29 01:03:40] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-06-29 01:03:40] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-06-29 01:07:42] [INFO] [Main] Running initial pipeline pass...
+[2026-06-29 01:07:42] [INFO] [Pipeline] === NODE: Scan Files ===
+[2026-06-29 01:07:42] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:07:43] [INFO] [FileMonitorAgent] New file detected: day1_module1_quiz1.csv (Quiz 1)
+[2026-06-29 01:07:43] [INFO] [FileMonitorAgent] New file detected: day2_module1_quiz2.csv (Quiz 2)
+[2026-06-29 01:07:43] [INFO] [FileMonitorAgent] New file detected: day3_module1_quiz3.csv (Quiz 3)
+[2026-06-29 01:07:43] [INFO] [FileMonitorAgent] New file detected: day4_module1_quiz4.csv (Quiz 4)
+[2026-06-29 01:07:43] [INFO] [FileMonitorAgent] New file detected: day5_module5_quiz5.csv (Quiz 5)
+[2026-06-29 01:07:43] [INFO] [FileMonitorAgent] New file detected: day6_module2_quiz6.csv (Quiz 6)
+[2026-06-29 01:07:43] [INFO] [FileMonitorAgent] New file detected: day7_module3_quiz7.csv (Quiz 7)
+[2026-06-29 01:07:43] [INFO] [Pipeline] Found 7 new file(s) to process.
+[2026-06-29 01:07:43] [INFO] [Pipeline] === NODE: Clean Data ===
+[2026-06-29 01:07:43] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:07:43] [INFO] [ScheduleLoader] Schedule loaded: 26 quiz entries.
+[2026-06-29 01:07:43] [INFO] [DataCleaningAgent] Cleaning file: day1_module1_quiz1.csv
+[2026-06-29 01:07:43] [DEBUG] [DataCleaningAgent] Raw shape: (24, 4), columns: ['Timestamp', 'Name', 'Email', 'Total score']
+[2026-06-29 01:07:43] [INFO] [DataCleaningAgent] Cleaned: 24 unique students for Quiz 1.
+[2026-06-29 01:07:44] [INFO] [DatabaseManager] Upserted 24 quiz score rows.
+[2026-06-29 01:07:44] [INFO] [Pipeline] Stored 24 rows for Quiz 1.
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaning file: day2_module1_quiz2.csv
+[2026-06-29 01:07:44] [DEBUG] [DataCleaningAgent] Raw shape: (35, 4), columns: ['Timestamp', 'Name', 'Email', 'Total score']
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaned: 35 unique students for Quiz 2.
+[2026-06-29 01:07:44] [INFO] [DatabaseManager] Upserted 35 quiz score rows.
+[2026-06-29 01:07:44] [INFO] [Pipeline] Stored 35 rows for Quiz 2.
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaning file: day3_module1_quiz3.csv
+[2026-06-29 01:07:44] [DEBUG] [DataCleaningAgent] Raw shape: (42, 4), columns: ['Timestamp', 'Name', 'Email', 'Total score']
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaned: 42 unique students for Quiz 3.
+[2026-06-29 01:07:44] [INFO] [DatabaseManager] Upserted 42 quiz score rows.
+[2026-06-29 01:07:44] [INFO] [Pipeline] Stored 42 rows for Quiz 3.
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaning file: day4_module1_quiz4.csv
+[2026-06-29 01:07:44] [DEBUG] [DataCleaningAgent] Raw shape: (40, 4), columns: ['Timestamp', 'Name', 'Email', 'Total score']
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaned: 40 unique students for Quiz 4.
+[2026-06-29 01:07:44] [INFO] [DatabaseManager] Upserted 40 quiz score rows.
+[2026-06-29 01:07:44] [INFO] [Pipeline] Stored 40 rows for Quiz 4.
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaning file: day5_module5_quiz5.csv
+[2026-06-29 01:07:44] [DEBUG] [DataCleaningAgent] Raw shape: (39, 4), columns: ['Timestamp', 'Name', 'Email', 'Total score']
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaned: 39 unique students for Quiz 5.
+[2026-06-29 01:07:44] [INFO] [DatabaseManager] Upserted 39 quiz score rows.
+[2026-06-29 01:07:44] [INFO] [Pipeline] Stored 39 rows for Quiz 5.
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaning file: day6_module2_quiz6.csv
+[2026-06-29 01:07:44] [DEBUG] [DataCleaningAgent] Raw shape: (26, 4), columns: ['Timestamp', 'Name', 'Email', 'Total score']
+[2026-06-29 01:07:44] [INFO] [DataCleaningAgent] Cleaned: 26 unique students for Quiz 6.
+[2026-06-29 01:07:44] [INFO] [DatabaseManager] Upserted 26 quiz score rows.
+[2026-06-29 01:07:45] [INFO] [Pipeline] Stored 26 rows for Quiz 6.
+[2026-06-29 01:07:45] [INFO] [DataCleaningAgent] Cleaning file: day7_module3_quiz7.csv
+[2026-06-29 01:07:45] [DEBUG] [DataCleaningAgent] Raw shape: (32, 4), columns: ['Timestamp', 'Name', 'Email', 'Total score']
+[2026-06-29 01:07:45] [INFO] [DataCleaningAgent] Cleaned: 32 unique students for Quiz 7.
+[2026-06-29 01:07:45] [INFO] [DatabaseManager] Upserted 32 quiz score rows.
+[2026-06-29 01:07:45] [INFO] [Pipeline] Stored 32 rows for Quiz 7.
+[2026-06-29 01:07:45] [INFO] [Pipeline] === NODE: Calculate Performance ===
+[2026-06-29 01:07:45] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:07:45] [INFO] [Pipeline] === NODE: Assign Percentiles ===
+[2026-06-29 01:07:45] [INFO] [PercentileRankingAgent] Assigned ranks and percentiles to 61 students.
+[2026-06-29 01:07:45] [INFO] [Pipeline] === NODE: Assign Grades ===
+[2026-06-29 01:07:45] [INFO] [GradeAssignmentAgent] Grade distribution: {'B+': 17, 'A+': 14, 'A': 14, 'B': 9, 'F': 3, 'C': 2, 'D': 2}
+[2026-06-29 01:07:45] [INFO] [Pipeline] === NODE: Generate Grade Cards ===
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Deepanshu.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit_Kumar.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vibhu.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivangi_Pandey.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Amrendra_Ram_Tripathi.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Chetan_Goswami.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ansh_Tyagi.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritesh_Kumar_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kanak_Gupta.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anurag_Kumar_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Harshit_Rai.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Lalit.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prem_Kumar_Jha.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gunjan.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vipul_Pandey.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anushka_Garg.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Prateek_Rai.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sakshi_Chauhan.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rahul_Yadav.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mohit.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akash_Kumar_Yadav.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Tarun_Kumar.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nikhil_Sharma.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vineet_Kumar_Roy.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Garima_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shivam_Chaudhary.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Pal.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Anshu_Gupta.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Happy.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nilesh_Sarkar.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Satyansh_Rawat.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Jai_Vardhan_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vivek_Yadav.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Devashish_Dobhal.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ayush_Saw.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Mushroop.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sringani_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Kapil_Yadav.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Nisha_Gupta.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishujeet_Rathore.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Gurmeet_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Yash_Bansal.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Ritik.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Piyush_Singh.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vishal_Kumar.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Pushpendra_Yadav.pdf
+[2026-06-29 01:07:45] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Vaibhav_Mishra.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sanskar.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Manish_Mishra.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Aman_Kumar.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Shreyanshi_Yadav.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Rohit_Kumar.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Sonu_Kumar.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Krishna_Kumar_Sah.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Akeel_Khan.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Grade card generated: reports/grade_cards\grade_card_Alok.pdf
+[2026-06-29 01:07:46] [INFO] [GradeCardGeneratorAgent] Generated 61 grade cards.
+[2026-06-29 01:07:46] [INFO] [Pipeline] === NODE: Send Emails ===
+[2026-06-29 01:07:46] [INFO] [EmailAgent] Email sending disabled (SEND_EMAILS != true). Skipping.
+[2026-06-29 01:07:46] [INFO] [Pipeline] === NODE: Write Outputs ===
+[2026-06-29 01:07:46] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:07:46] [INFO] [OutputWriter] Master file written: output\master_performance.csv
+[2026-06-29 01:07:46] [INFO] [OutputWriter] Module summary written: output\module_summary.csv
+[2026-06-29 01:07:46] [INFO] [OutputWriter] Rankings file written: output\final_rankings.csv
+[2026-06-29 01:07:46] [INFO] [Pipeline] === Pipeline Complete ===
+[2026-06-29 01:08:24] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:09:06] [INFO] [DatabaseManager] Database schema initialized.
+[2026-06-29 01:14:22] [INFO] [DatabaseManager] Database schema initialized.

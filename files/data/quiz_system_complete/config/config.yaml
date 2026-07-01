@@ -1,0 +1,52 @@
+system:
+  name: "Automated Training Performance Management System"
+  institution: "Lloyd Institute of Engineering & Technology"
+  training: "ML and Agentic AI Summer Training - 2026"
+  total_quizzes: 26
+  questions_per_quiz: 15
+  marks_per_question: 1
+
+paths:
+  quiz_folder: "data/quiz_files"
+  output_folder: "output"
+  reports_folder: "reports/grade_cards"
+  logs_folder: "logs"
+  database: "output/performance.db"
+  schedule: "data/training_schedule.xlsx"
+
+grading:
+  A_plus:  { min: 90, label: "A+" }
+  A:       { min: 80, label: "A"  }
+  B_plus:  { min: 70, label: "B+" }
+  B:       { min: 60, label: "B"  }
+  C:       { min: 50, label: "C"  }
+  D:       { min: 40, label: "D"  }
+  F:       { min: 0,  label: "F"  }
+
+email:
+  sender: ""          # Set in .env: EMAIL_SENDER
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 587
+  send_emails: false  # Set to true when ready
+
+modules:
+  "Module 1 :Python":
+    quizzes: [1, 2, 3, 4]
+  "Module 2 : NumPy Essentials":
+    quizzes: [5, 6]
+  "Module 3 : Pandas":
+    quizzes: [7, 8]
+  "Module 4 : Exploratory Data Analysis (EDA)":
+    quizzes: [9, 10, 12]
+  "Module 5 : Data Preprocessing":
+    quizzes: [13, 14, 15]
+  "Module 6 : Machine Learning":
+    quizzes: [16, 18]
+  "Module 7 : Machine Learning":
+    quizzes: [19]
+  "Module 8 : Machine Learning":
+    quizzes: [20, 21]
+  "Module 9 : Machine Learning":
+    quizzes: [22]
+  "Module 10 : Agentic AI":
+    quizzes: [11, 17, 23, 24, 25]
